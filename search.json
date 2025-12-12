@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Profile",
+    "section": "",
+    "text": "Hello. I’m a creative developer building digital experiences with a focus on simplicity. I strive to build user-centric applications that solve real-world problems."
+  },
+  {
+    "objectID": "about.html#about",
+    "href": "about.html#about",
+    "title": "Profile",
+    "section": "",
+    "text": "Hello. I’m a creative developer building digital experiences with a focus on simplicity. I strive to build user-centric applications that solve real-world problems."
+  },
+  {
+    "objectID": "about.html#skills",
+    "href": "about.html#skills",
+    "title": "Profile",
+    "section": "Skills",
+    "text": "Skills\n\nHTML5 & Semantic Markup\nCSS3 (Flexbox, Grid, Custom Properties)\nJavaScript (ES6+)\nReact\nGit & Version Control"
+  },
+  {
+    "objectID": "about.html#selected-work",
+    "href": "about.html#selected-work",
+    "title": "Profile",
+    "section": "Selected Work",
+    "text": "Selected Work\n\nProject Alpha\nA responsive web application for workflow efficiency.\n\n\nProject Beta\nE-commerce platform with custom checkout.\n\n\nProject Gamma\nData visualization dashboard utilizing D3.js."
+  },
+  {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "Profile",
+    "section": "Contact",
+    "text": "Contact\nInterested in working together? Email me at email@example.com."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Welcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nDec 12, 2024\n\n\nRamón\n\n\n\n\n\nNo matching items"
+  }
+]
