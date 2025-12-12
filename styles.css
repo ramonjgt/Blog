@@ -3,6 +3,8 @@
    Font: Merriweather (Headings) + Inter (Body)
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Inter:wght@400;500;600&display=swap');
+
 :root {
     --bg-color: #ffffff;
     --text-primary: #111827;
@@ -17,12 +19,8 @@
     --font-body: 'Inter', sans-serif;
 }
 
-/* Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/* Reset - Modified for Quarto compatibility */
+/* Quarto/Bootstrap handles reset, only targeted overrides here */
 
 html {
     scroll-behavior: smooth;
@@ -35,55 +33,21 @@ body {
     color: var(--text-primary);
     line-height: 1.75;
     -webkit-font-smoothing: antialiased;
-    padding: 2rem 1.5rem;
-}
-
-/* Typography */
-h1,
-h2,
-h3 {
-    font-family: var(--font-heading);
-    font-weight: 700;
-    color: var(--text-primary);
-    margin-bottom: 1rem;
-}
-
-h1 {
-    font-size: 2.25rem;
-}
-
-h2 {
-    font-size: 1.5rem;
-    margin-top: 3rem;
-    border-bottom: 2px solid var(--text-primary);
-    /* Bold separator like reference */
-    padding-bottom: 0.5rem;
-}
-
-p {
-    margin-bottom: 1.5rem;
-    font-size: 1.05rem;
-    color: var(--text-secondary);
-}
-
-a {
-    color: var(--link-color);
-    text-decoration: none;
-    transition: color 0.15s ease;
-}
-
-a:hover {
-    color: var(--link-hover);
-    text-decoration: underline;
-    text-decoration-thickness: 1px;
-    text-underline-offset: 3px;
+    /* padding: 2rem 1.5rem; Quarto handles padding usually, but we can keep it if needed. 
+       However, navbar might need full width. Removing body padding to let navbar be full width. */
 }
 
 /* Layout */
-body>* {
+/* OLD: body > * { max-width: ... } 
+   NEW: Target Quarto's main container */
+main.content, .page-header {
     max-width: var(--container-width);
     margin: 0 auto;
+    padding: 0 1.5rem; /* Add horizontal padding here */
 }
+
+/* Ensure navbar isn't constrained by this if we don't want it to be */
+/* The navbar is usually outside main.content */
 
 /* Header */
 .header {

@@ -1,0 +1,40 @@
+---
+title: "Profile"
+image: https://via.placeholder.com/150
+about:
+  template: jolla
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com
+---
+
+## About
+
+Hello. I'm a creative developer building digital experiences with a focus on simplicity. I strive to build user-centric applications that solve real-world problems.
+
+## Skills
+
+*   HTML5 & Semantic Markup
+*   CSS3 (Flexbox, Grid, Custom Properties)
+*   JavaScript (ES6+)
+*   React
+*   Git & Version Control
+
+## Selected Work
+
+### [Project Alpha](#)
+A responsive web application for workflow efficiency.
+
+### [Project Beta](#)
+E-commerce platform with custom checkout.
+
+### [Project Gamma](#)
+Data visualization dashboard utilizing D3.js.
+
+## Contact
+
+Interested in working together? Email me at [email@example.com](mailto:email@example.com).
