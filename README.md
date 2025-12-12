@@ -7,7 +7,7 @@ A personal profile and blog website built with [Quarto](https://quarto.org/).
 - **`_quarto.yml`**: The main configuration file. Controls the navigation bar, site title, theme, and standard CSS.
 - **`index.qmd`**: The home page. It is configured to list the blog posts found in the `posts/` directory.
 - **`about.qmd`**: The "About" or "Profile" page containing your bio, skills, and contact info.
-- **`styles.css`**: Custom CSS styles to maintain your specific profile page aesthetics.
+- **`style.scss`**: Custom SCSS styles to maintain specific theme aesthetics.
 - **`posts/`**: This directory contains all your blog posts.
   - **`posts/welcome/`**: An example post.
 
@@ -49,3 +49,7 @@ quarto publish gh-pages
 2.  Run `quarto render`.
 3.  Push the `docs/` folder to GitHub.
 4.  Configure GitHub Pages to serve from the `/docs` folder on your main branch.
+
+## Credits
+
+Theme adapted from [GuillaumeDehaene/guillaumedehaene.github.io](https://github.com/GuillaumeDehaene/guillaumedehaene.github.io).
