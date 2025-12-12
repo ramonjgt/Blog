@@ -2,13 +2,19 @@ project:
   type: website
 
 website:
-  title: "Ramón"
+  title: "Noting everything"
+  page-footer: "This website was created with [Quarto](https://quarto.org/)."
+  page-navigation: true
+  back-to-top-navigation: true
+
   navbar:
     right:
       - text: "Blog"
         href: index.qmd
-      - text: "Profile"
+      - text: "About me"
         href: about.qmd
+      - icon: github
+        href: https://github.com/ramonjgt
 
 format:
   html:
@@ -24,3 +30,35 @@ format:
         @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
         </style>
+        <script>
+                MathJax = {
+                   tex: {
+                       tags: 'ams'  // should be 'ams', 'none', or 'all'
+                   },
+                    output: {
+                       font: 'mathjax-fira'
+                   }
+               };
+               </script>
+
+    toc: true
+    toc-location: right-body
+    
+    number-sections: true
+    number-depth: 3
+
+    shift-heading-level-by: 1
+    anchor-sections: true
+    
+    code-copy: true
+    
+    code-tools: true
+    
+    freeze: auto
+    
+    link-external-icon: true
+    link-external-newwindow: true
+    
+    lang: en
+    
+    strip-comments: true

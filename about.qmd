@@ -1,20 +1,17 @@
 ---
-title: "Profile"
-image: https://via.placeholder.com/150
+title: "About me"
+subtitle: "Hello. I'm a creative developer building digital experiences with a focus on simplicity. I strive to build user-centric applications that solve real-world problems."
 about:
-  template: jolla
+  template: solana
   links:
     - icon: github
       text: Github
-      href: https://github.com
+      href: https://github.com/ramonjgt
     - icon: twitter
       text: Twitter
       href: https://twitter.com
 ---
 
-## About
-
-Hello. I'm a creative developer building digital experiences with a focus on simplicity. I strive to build user-centric applications that solve real-world problems.
 
 ## Skills
 
@@ -37,4 +34,4 @@ Data visualization dashboard utilizing D3.js.
 
 ## Contact
 
-Interested in working together? Email me at [email@example.com](mailto:email@example.com).
+Interested in working together? Email me at [ramon.gt1997@gmail.com](mailto:ramon.gt1997@gmail.com).
